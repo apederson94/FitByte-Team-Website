@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FitByte</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bulma.css">
+    <link rel="icon" href="./imgs/logo/FitByteLogo.png">
+</head>
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="./imgs/logo/FitByteBrandLogo.png">
+            </a>
+            <div id="navBurger" class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="about.html" class="navbar-item is-tab">About</a>
+                <a href="team.html" class="navbar-item is-tab">The Team</a>
+                <a href="requirements.html" class="navbar-item is-tab">Requirements</a>
+                <a href="schedule.html" class="navbar-item is-tab">Schedule</a>
+                <a href="technologies.html" class="navbar-item is-tab">Technologies</a>
+                <a href="solution.html" class="navbar-item is-tab">Solution</a>
+                <a href="archive.html" class="navbar-item is-tab">Archive</a>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div id="logo" class="columns is-centered">
+        <div class="column is-two-fifths">
+            <img src="./imgs/logo/FitByteBrandLogo.png">
+        </div>
+    </div>
+
+    <div id="tabs" class="tabs">
+        <ul>
+            <li id="infoTab" class="is-active"><a>General Info</a></li>
+            <li id="sponsorTab"><a>Our Sponsors</a></li>
+            <li id="techTab"><a>Our Technical Advisor</a></li>
+        </ul>
+    </div>
+
+    <!--TODO: turn this into sections. it looks way better.-->
+
+    <div id="tabContent" class="columns">
+        <div class="column is-four-fifths is-offset-1">
+            <h1 class="title underlined">What is FitByte?</h1>
+            <h1 class="subtitle is-4">
+                FitByte is an NAU capstone project being conducted over 2018-19 school year.
+                Our end goal is to produce an API which can be accessed via authenticated requests.
+                This API will tie into the WearWare system that is already in place at NAU.
+                This will give researchers at NAU and University of Delaware access to 
+                <a href="https://www.fitbit.com/home">FitBit</a> data more freely and easily.
+            </h1>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>

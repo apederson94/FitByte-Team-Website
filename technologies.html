@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FitByte</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bulma.css">
+    <link rel="icon" href="./imgs/logo/FitByteLogo.png">
+</head>
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="./imgs/logo/FitByteBrandLogo.png">
+            </a>
+            <div id="navBurger" class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="about.html" class="navbar-item is-tab">About</a>
+                <a href="team.html" class="navbar-item is-tab">The Team</a>
+                <a href="requirements.html" class="navbar-item is-tab">Requirements</a>
+                <a href="schedule.html" class="navbar-item is-tab">Schedule</a>
+                <a href="technologies.html" class="navbar-item is-tab is-active">Technologies</a>
+                <a href="solution.html" class="navbar-item is-tab">Solution</a>
+                <a href="archive.html" class="navbar-item is-tab">Archive</a>
+                
+            </div>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="container">
+            <h1 class="title underlined">
+                What technologies will we be using?
+            </h1>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a class="subtitle is-4">WearWare</a>
+                    </li>
+                    <li>
+                        <a class="subtitle is-4">Django Web Framework</a>
+                    </li>
+                    <li>
+                        <a class="subtitle is-4">OCTAVE</a>
+                    </li>
+                    <li>
+                        <a class="subtitle is-4">Twilio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h1 class="title underlined">
+                What is WearWare?
+            </h1>
+            <div class="column is-four-fifths">
+                <h1 class="subtitle is-4">
+                    WearWare is a piece of software developed here at NAU. It connects
+                    to the Fitbit web API in order to request data about FitBits.
+                    Specifically, WearWare requests data about fitbits that are being
+                    worn by participants of research studies conducted here at NAU.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h1 class="title underlined">
+                Why these technologies?
+            </h1>
+            <div class="column is-four-fifths">
+                <h1 class="subtitle is-4">
+                    WearWare is being used because it is the piece of software
+                    that will give our software access to the Fitbit data necessary
+                    to complete our project.
+                    <br><br>
+                    Django Web Framework is being used because it is the software
+                    that is being used to develop WearWare and it comes with
+                    robust security and ease of use right out of the box.
+                    <br><br>
+                    OCTAVE is being used as it is already currently in use by our sponsor 
+                    Dr. Kyle Winfree. This makes it easier for him to tweak the code
+                    that we write if he needs anything to change in the future.
+                    <br><br>
+                    Twilio is being used for the SMS text messages side of this project.
+                    They provide an API that can be used with the Django Web Framework.
+                    This will provide us with the tools to send SMS text messages to
+                    study participants with ease.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <script src="js/navbar.js"></script>
+</body>
+</html>

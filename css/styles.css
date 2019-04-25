@@ -1,0 +1,37 @@
+.ConstructionMessage {
+    text-align: center;
+}
+
+.teamListItem {
+    font-size: 1.25em;
+}
+
+.sponsorText {
+    font-size: 1.25em;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.teamImg {
+    max-height: 256px;
+    max-width: 256px;
+}
+
+.bottomAlign {
+    position: absolute;
+    bottom: 0;
+}
+
+.bottomParent {
+    position: relative;
+}
+
+a.subtitle {
+    cursor: default;
+}
+
+a.title {
+    cursor: default;
+}

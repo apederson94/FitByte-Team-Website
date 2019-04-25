@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FitByte</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bulma.css">
+    <link rel="icon" href="./imgs/logo/FitByteLogo.png">
+</head>
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="./imgs/logo/FitByteBrandLogo.png">
+            </a>
+            <div id="navBurger" class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="about.html" class="navbar-item is-tab">About</a>
+                <a href="team.html" class="navbar-item is-tab is-active">The Team</a>
+                <a href="requirements.html" class="navbar-item is-tab">Requirements</a>
+                <a href="schedule.html" class="navbar-item is-tab">Schedule</a>
+                <a href="technologies.html" class="navbar-item is-tab">Technologies</a>
+                <a href="solution.html" class="navbar-item is-tab">Solution</a>
+                <a href="archive.html" class="navbar-item is-tab">Archive</a>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="columns">
+        <div class="column is-one-quarter">
+            <aside class="menu">
+                <p class="menu-label">Members</p>
+                <ul class="menu-list">
+                    <li><a id="jake">Jake Farrar</a></li>
+                    <li><a id="jacob">Jacob Lemon</a></li>
+                    <li><a id="austin">Austin Pederson</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div id="memberContent" class="column is-three-quarters"></div>
+    </div>
+
+    <script src="./js/team.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>
